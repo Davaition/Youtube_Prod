@@ -105,9 +105,16 @@ For the Content Strategy Team:
 
 ---
 
-## Clarifying Questions, Assumptions, and Caveats
+## Assumptions and Caveats
 
-### Questions for Stakeholders Before Strategic Rollout
+- Some countries missing region tags were excluded or lumped into "Other"
+- `is_outlier = TRUE` values were filtered out to reduce noise
+- Monthly-level aggregations hide yearly spikes
+- No time zone normalisation applied to posting dates
+  
+---
+
+## Questions for Stakeholders Before Strategic Rollout
 
 - Regional Mapping Consistency
   - Should the regional grouping (APAC, EMEA, NA, LATAM) follow YouTube’s internal schema, or be adjusted based on marketing segmentation?
