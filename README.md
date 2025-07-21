@@ -52,7 +52,7 @@ Performance peaks consistently during Q2—especially in May—suggesting an opp
 
 ## Insights Deep Dive
 
-### Category 1: Regional Watch Time & Total Views
+### Section 1: Regional Watch Time & Total Views
 
 - APAC peaks in May with 531K views; average watch time: 3m 05s
 - EMEA maintains steady growth; watch time: 3m 36s
@@ -63,7 +63,7 @@ Performance peaks consistently during Q2—especially in May—suggesting an opp
 
 ---
 
-### Category 2: Subscriber Conversion & Engagement Rates
+### Section 2: Subscriber Conversion & Engagement Rates
 
 - LATAM has the highest conversion rate: 67%
 - Peak months for conversion: June - October
@@ -74,7 +74,7 @@ Performance peaks consistently during Q2—especially in May—suggesting an opp
 
 ---
 
-### Category 3: Monthly Subscriber Trends & Growth
+### Section 3: Monthly Subscriber Trends & Growth
 
 - Highest subscriber gains in APAC and EMEA
 - Strong growth in April and May, especially in APAC (5.75%)
@@ -84,7 +84,7 @@ Performance peaks consistently during Q2—especially in May—suggesting an opp
 
 ---
 
-### Category 4: Strategic Regional Opportunities
+### Section 4: Strategic Regional Opportunities
 
 - LATAM shows the highest conversion rate but low view count, indicating strong audience potential if better targeted.
 - NA has the longest average watch time, making it ideal for long-form content that benefits from strong retention.
