@@ -1,6 +1,22 @@
 
 # YouTube Regional Engagement Analysis
 
+## Table of Contents
+
+- [YouTube Regional Engagement Analysis](#youtube-regional-engagement-analysis)
+- [Project Background](#project-background)
+- [Data Structure & Initial Checks](#data-structure--initial-checks)
+- [Executive Summary](#executive-summary)
+  - [Key Findings](#key-findings)
+- [Insights Deep Dive](#insights-deep-dive)
+  - [Section 1: Regional Watch Time & Total Views](#section-1-regional-watch-time--total-views)
+  - [Section 2: Subscriber Conversion & Engagement Rates](#section-2-subscriber-conversion--engagement-rates)
+  - [Section 3: Monthly Subscriber Trends & Growth](#section-3-monthly-subscriber-trends--growth)
+  - [Section 4: Strategic Regional Opportunities](#section-4-strategic-regional-opportunities)
+- [Recommendations](#recommendations)
+- [Assumptions and Caveats](#assumptions-and-caveats)
+- [Questions for Stakeholders Before Strategic Rollout](#questions-for-stakeholders-before-strategic-rollout)
+
 ## Project Background
 
 Ken Jee is a prominent content creator in the data science and analytics industry, known for sharing practical tutorials and career advice. His YouTube channel operates on an audience-engagement business model, where monetization is driven by views, watch time, and subscriber growth. This analysis was conducted from the perspective of a data analyst supporting the channel’s strategic decision-making.
