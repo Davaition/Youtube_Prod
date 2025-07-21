@@ -107,10 +107,13 @@ For the Content Strategy Team:
 
 ## Assumptions and Caveats
 
-- Some countries missing region tags were excluded or lumped into "Other"
-- `is_outlier = TRUE` values were filtered out to reduce noise
-- Monthly-level aggregations hide yearly spikes
-- No time zone normalisation applied to posting dates
+Several assumptions were made during the analysis to manage data quality, regional inconsistencies, and temporal alignment. These are outlined below:
+
+- Incomplete Region Mapping: A small number of records lacked region or country identifiers. These were either excluded from region-specific analyses or categorised under a general "Other" label to prevent distortion in regional insights.
+- Outlier Handling: Records marked with `is_outlier = TRUE` (typically videos with unusually high or low metrics) were excluded to avoid skewing averages and regional comparisons. These outliers often represent viral anomalies that don’t reflect typical performance trends.
+- Temporal Aggregation Limitations: Metrics were primarily aggregated at the monthly level. This may obscure short-term spikes or dips (e.g., campaign launches or viral moments), particularly when analysing subscriber trends or engagement bursts.
+- Time Zone Normalisation: Video upload timestamps and engagement data were not normalised to a single time zone. This could lead to slight misalignments in daily trends, particularly when comparing peak performance across global regions.
+- Missing Commentary and Engagement Metrics: Comments and likes data were excluded from this version of the report due to incomplete coverage across regions and video categories. These may be explored in a follow-up analysis for qualitative insight.
   
 ---
 
