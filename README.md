@@ -36,7 +36,7 @@ The company’s main database structure includes five core tables:
 
 ## Executive Summary
 
-An analysis of 2020-2022 YouTube videos Ken Jee’s channel revealed strong regional disparities in viewer behavior and subscriber growth across APAC, EMEA, NA, and LATAM. APAC leads in total views and subscriber count, accounting for nearly 40% of total engagement, while NA shows the highest average watch time at over 4 minutes per session. LATAM, although contributing only 6% of total views, demonstrated the highest subscriber conversion rate at 30.5%, signalling untapped potential.
+An analysis of 2020-2022 YouTube videos Ken Jee’s channel revealed strong regional disparities in viewer behaviour and subscriber growth across APAC, EMEA, NA, and LATAM. APAC leads in total views and subscriber count, accounting for nearly 40% of total engagement, while NA shows the highest average watch time at over 4 minutes per session. LATAM, although contributing only 6% of total views, demonstrated the highest subscriber conversion rate at 30.5%, signalling untapped potential.
 
 Performance peaks consistently during Q2—especially in May—suggesting an opportunity to synchronise campaigns around this period. Subscriber growth trends show early-year strength but taper off mid-year, highlighting the need for retention strategies and content refreshes. Localised content in LATAM and long-form, high-retention content in NA are strategic levers for driving further growth. These insights can guide content planning, regional targeting, and investment in personalization to maximize channel performance and audience retention.
 
