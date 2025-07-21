@@ -1,0 +1,39 @@
+Question: How do views and engagement vary by country and subscriber status? Which region should we focus content on/cater to?
+
+Excel file: Aggregated Metrics by Country
+Columns Needed: Country Code, Is Subscribed, Views, Average Watch Time, Video Title, Video Likes Added, Video Dislikes Added
+
+Log:
+Excel-
+Got rid of ðŸŒ¶in the Video title
+Removed Â from the tables
+Added a Country Name based on the Country Code field using a Country Codes sheet and VLookUP
+Removed all the records that have a country code of ZZ because that means unspecified
+Removed all blanks from the country codes
+Went through the Country Name field and made sure there are no blank and no n/a
+Removed User Comments Added
+Removed User Subscriptions Added and Removed
+Removed Average View Percentage
+Removed Video Likes Removed
+Removed Thumbnail Link
+Renamed the tables to Video Stats and Country Regions
+Added a Region column to the Country Regions table
+Added Video Performance Over Time table
+Removed Â from the tables
+Removed Thumbnail Link, Subscribers Lost, Average View Duration, Estimated Revenue (USD), Likes, Dislikes, Shares, RPM (USD), CPM (USD), Average View Durations, Subscribers
+
+Power BI-
+
+Create Calendar Lookup and Video Lookup tables, rename Country Regions table to Country Lookup
+Ensure Date formats are all short version
+Create table relationships
+Create Videos on Same Date column in Video Lookup table to figure out what relationship should be between Video Lookup and Calendar Lookup
+Hide that column from report view
+Remove the video_title column from any table that isn't Video Lookup
+Create is_outlier column in Video Stats
+Create average_watch_time_minutes in Video Stats
+Create watch_time_formatted in Video Stats
+Delete the country_name column from Video Stats because country_id points to It in the Country Lookup
+Create the Measure Table
+Create the measures needed for dashboard creation
+Create a Date Hierarchy in Calendar Lookup 

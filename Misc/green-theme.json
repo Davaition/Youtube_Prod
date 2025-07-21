@@ -1,0 +1,20 @@
+{
+  "name": "Green Theme",
+  "dataColors": [
+    "#006400", "#228B22", "#32CD32", "#7CFC00", "#ADFF2F",
+    "#98FB98", "#90EE90", "#8FBC8F", "#556B2F", "#2E8B57"
+  ],
+  "visualStyles": {
+    "*": {
+      "*": {
+        "color": [
+          {
+            "solid": {
+              "color": "#228B22"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
