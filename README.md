@@ -54,7 +54,7 @@ The company’s main database structure includes five core tables:
 
 An analysis of 2020-2022 YouTube videos Ken Jee’s channel revealed strong regional disparities in viewer behaviour and subscriber growth across APAC, EMEA, NA, and LATAM. APAC leads in total views and subscriber count, accounting for nearly 40% of total engagement, while NA shows the highest average watch time at over 4 minutes per session. LATAM, although contributing only 6% of total views, demonstrated the highest subscriber conversion rate at 30.5%, signalling untapped potential.
 
-Performance peaks consistently during Q2—especially in May—suggesting an opportunity to synchronise campaigns around this period. Subscriber growth trends show early-year strength but taper off mid-year, highlighting the need for retention strategies and content refreshes. Localised content in LATAM and long-form, high-retention content in NA are strategic levers for driving further growth. These insights can guide content planning, regional targeting, and investment in personalization to maximize channel performance and audience retention.
+Performance peaks consistently during Q2, especially in May, suggesting an opportunity to synchronise campaigns around this period. Subscriber growth trends show early-year strength but taper off mid-year, highlighting the need for retention strategies and content refreshes. Localised content in LATAM and long-form, high-retention content in NA are strategic levers for driving further growth. These insights can guide content planning, regional targeting, and investment in personalization to maximize channel performance and audience retention.
 
 ### Key Findings
 
@@ -116,8 +116,8 @@ For the Content Strategy Team:
 - Translate/localise content for LATAM to increase viewership while maintaining high conversion
 - Use NA as a hub for long-form educational videos
 - Invest in Q2 campaigns, especially May when all regions peak
-- Launch experimental content in APAC — scalable and growing
-- Re-evaluate strategy for EMEA — consider subtitling and SEO targeting
+- Launch experimental content in APAC ,  scalable and growing
+- Re-evaluate strategy for EMEA ,  consider subtitling and SEO targeting
 
 ---
 
