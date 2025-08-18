@@ -32,13 +32,13 @@ Insights and recommendations are provided on the following key areas:
 - **Strategic Regional Opportunities** 
 
 
-An interactive Power BI dashboard used to explore performance trends can be found here [youtube_analytics_project.pbix].
+An interactive Power BI dashboard used to explore performance trends can be found within the repository labelled: [youtube_analytics_project.pbix].
 
 ---
 
 ## Data Structure & Initial Checks
 
-The company’s main database structure includes five core tables:
+The channels' video data's main database structure includes five core tables:
 
 - `Country_Lookup`: Maps `country_id` to country and region (APAC, NA, EMEA, LATAM)
 - `Calendar_Lookup`: Provides month, quarter, year mapping
@@ -52,9 +52,9 @@ The company’s main database structure includes five core tables:
 
 ## Executive Summary
 
-An analysis of 2020-2022 YouTube videos Ken Jee’s channel revealed strong regional disparities in viewer behaviour and subscriber growth across APAC, EMEA, NA, and LATAM. APAC leads in total views and subscriber count, accounting for nearly 40% of total engagement, while NA shows the highest average watch time at over 4 minutes per session. LATAM, although contributing only 6% of total views, demonstrated the highest subscriber conversion rate at 30.5%, signalling untapped potential.
+The analysis, based on 2020-2022 Ken Jee YouTube video data, revealed strong regional disparities in viewer behaviour and subscriber growth across APAC, EMEA, NA, and LATAM. APAC lead in total views and subscriber count, accounting for nearly 40% of total engagement, while NA showed the highest average watch time at over 4 minutes per session. LATAM, although contributing only 6% of total views, demonstrated the highest subscriber conversion rate at 30.5%, signalling untapped potential.
 
-Performance peaks consistently during Q2, especially in May, suggesting an opportunity to synchronise campaigns around this period. Subscriber growth trends show early-year strength but taper off mid-year, highlighting the need for retention strategies and content refreshes. Localised content in LATAM and long-form, high-retention content in NA are strategic levers for driving further growth. These insights can guide content planning, regional targeting, and investment in personalization to maximize channel performance and audience retention.
+Video performance peaks consistently during Q2, especially in May, suggesting an opportunity to focus campaigns around this period. Subscriber growth trends show early-year strength but taper off mid-year, highlighting the need for consistent retention strategies and content refreshes. Localised focused content in LATAM and long-form, high-retention content in NA are potentially strategic levers for driving further channel growth. These insights can guide content planning, regional targeting, and investment in personalization to maximize channel performance and audience retention.
 
 ### Key Findings
 
@@ -72,8 +72,8 @@ Performance peaks consistently during Q2, especially in May, suggesting an oppor
 
 - APAC peaks in May with 531K views; average watch time: 3m 05s
 - EMEA maintains steady growth; watch time: 3m 36s
-- NA has the deepest engagement with 4m 03s avg watch time
-- LATAM lowest total views (0.3M) but worth investing in due to the high subscriber conversion rate
+- NA has the deepest engagement with 4m 03s average watch time
+- LATAM lowest total views (0.3M); however, worth investing in due to a significant subscriber conversion rate
 
 ![Regional Engagement](Images/Regional_Stats.png)
 
@@ -94,7 +94,7 @@ Performance peaks consistently during Q2, especially in May, suggesting an oppor
 
 - Highest subscriber gains in APAC and EMEA
 - Strong growth in April and May, especially in APAC (5.75%)
-- LATAM’s growth % is low, but conversion efficiency is high
+- LATAM’s growth % is low; however, conversion efficiency is high
 
 ![Growth Metrics](Images/Trend_Heatmaps.png)
 
@@ -113,17 +113,17 @@ Performance peaks consistently during Q2, especially in May, suggesting an oppor
 
 For the Content Strategy Team:
 
-- Translate/localise content for LATAM to increase viewership while maintaining high conversion
-- Use NA as a hub for long-form educational videos
-- Invest in Q2 campaigns, especially May when all regions peak
-- Launch experimental content in APAC ,  scalable and growing
-- Re-evaluate strategy for EMEA ,  consider subtitling and SEO targeting
+- Translate and localise content for LATAM to increase viewership while maintaining a high conversion rate
+- Use NA as a hub for long-form educational videos, utilising the region's significant viewer engagement
+- Invest in Q2 campaigns, especially May, when all regions peak
+- Launch experimental content in APAC due to its scalable and growth position
+- Re-evaluate strategy for EMEA, consider subtitling to localise content and boost engagement as a result
 
 ---
 
 ## Assumptions and Caveats
 
-Several assumptions were made during the analysis to manage data quality, regional inconsistencies, and temporal alignment. These are outlined below:
+Several assumptions were made during analysis to manage data quality, regional inconsistencies, and temporal alignment. These are outlined below:
 
 - Incomplete Region Mapping: A small number of records lacked region or country identifiers. These were either excluded from region-specific analyses or categorised under a general "Other" label to prevent distortion in regional insights.
 - Outlier Handling: Records marked with `is_outlier = TRUE` (typically videos with unusually high or low metrics) were excluded to avoid skewing averages and regional comparisons. These outliers often represent viral anomalies that don’t reflect typical performance trends.
@@ -145,7 +145,7 @@ Several assumptions were made during the analysis to manage data quality, region
 
 - Subscriber Growth vs. Conversion
   - Should higher subscriber conversion rates (like in LATAM) be prioritised over higher subscriber volume (like APAC)?
-  - How should we define success, absolute subscriber gain or percentage growth/conversion?
+  - How should we define success: absolute subscriber gain or percentage growth/conversion?
 
 - Campaign Timing and Seasonality
   - Are there known marketing pushes (e.g., course launches, collabs) during months like May and October that could explain engagement spikes?
@@ -153,7 +153,7 @@ Several assumptions were made during the analysis to manage data quality, region
 
 - Localisation Strategy
   - What content localisation strategies (translation, subtitling, region-specific topics) can be used?
-  - Is there an appetite to test region-specific playlists or region-led community engagement efforts?
+  - Is there a drive to test region-specific playlists or region-led community engagement efforts?
 
 ---
 
